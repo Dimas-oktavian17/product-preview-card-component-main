@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wrap {
+    @apply flex flex-col justify-center items-center pt-8;
+  }
+}
+@layer components {
+  .card-utilites {
+    @apply w-[90%] bg-white shadow-lg rounded-xl lg:flex lg:flex-row lg:w-[60%] xl:max-w-full xl:w-[40%];
+  }
+}
+@layer components {
+  .figure {
+    @apply w-full lg:w-1/2 lg:h-auto;
+  }
+}
+@layer components {
+  .img {
+    @apply bg-mobile pb-[15rem] bg-cover h-full sm:pb-[25rem] lg:p-0 lg:bg-Desktop;
+  }
+}
+@layer components {
+  .text-head {
+    @apply font-header font-medium text-sm text-Dark-grayish-blue tracking-[.25em];
+  }
+}
+@layer components {
+  .title {
+    @apply font-main font-bold text-3xl text-Very-dark-blue xl:w-[14.1rem] xl:leading-7;
+  }
+}
+@layer components {
+  .subtitle {
+    @apply text-Dark-grayish-blue text-sm font-normal xl:pr-4 xl:mt-4;
+  }
+}
+@layer components {
+  .price {
+    @apply flex flex-row justify-start items-center pt-8;
+  }
+}
+@layer components {
+  .price-1 {
+    @apply text-Dark-cyan font-main pr-6;
+  }
+}
+@layer components {
+  .price-2 {
+    @apply text-Dark-grayish-blue font-header;
+  }
+}
+@layer components {
+  .btn-utilitis {
+    @apply w-full bg-Dark-cyan border-none normal-case xl:mt-8 hover:bg-hover;
+  }
+}
